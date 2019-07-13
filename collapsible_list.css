@@ -1,0 +1,13 @@
+ol ol {
+    display:none; 
+}
+
+li:hover {
+    color: red;
+}
+
+li:hover > ol {       /* li inside li*/
+    display: block;
+    color: blue;
+}
+

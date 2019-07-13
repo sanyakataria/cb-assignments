@@ -1,0 +1,33 @@
+.menu>li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+li{
+    margin: 5px;
+    padding: 5px;
+}
+ul ul{
+    display: none;
+}
+
+li:hover{
+    color: red;
+}
+
+li:hover>ul{
+    background-color: blanchedalmond;
+    position: absolute;
+    display: inline-block;
+}
